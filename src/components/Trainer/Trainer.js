@@ -1,9 +1,9 @@
+
 import React, { useState, useEffect } from "react";
 import "./Trainer.css";
 
 function TrainerCard({ trainer, onDelete }) {
   return (
-    <>
     <div className="bot-grid">
       <div className="card-container">
         <div className="card">
@@ -18,8 +18,7 @@ function TrainerCard({ trainer, onDelete }) {
           <button onClick={() => onDelete(trainer.id)}>Delete</button>
         </div>
       </div>
-      </div>
-    </>
+    </div>
   );
 }
 
@@ -110,6 +109,10 @@ function Trainer() {
             {row.map((trainer) => (
               <TrainerCard
                 key={trainer.id}
+               
+
+
+
                 trainer={trainer}
                 onDelete={handleDelete}
               />
