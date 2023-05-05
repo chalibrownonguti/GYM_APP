@@ -5,7 +5,13 @@
     gap: 10rem;
 }
 
-
+.left-j{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
 .left-j>hr{
     position: absolute;
     width: 10.5rem;
