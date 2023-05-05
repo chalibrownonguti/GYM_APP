@@ -19,7 +19,12 @@
     top: 10rem;
     right: 7rem;
 }
-
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
 .plan{
     display: flex;
     flex-direction: column;
